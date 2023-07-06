@@ -1,9 +1,13 @@
 # ML-Project
 Weather Continuous-Forecasting  
-Bài của mình là dùng attribute của hiện tại để dự đoán thời tiết 3 tiếng sau nhé  
-- Dương với Tùng mỗi người nghĩ thêm 1 thuật toán nữa cho bài nhé, còn nếu không có nhiều thời gian thì 2 người cùng làm 1 cái cũng được  
-- Trung xem lại phần code của t xem có gì sai không, với cả làm annalys về data với thuật toán của mỗi người xem có hiệu quả không, chắc là dùng cross validation hoặc m tự nghĩ ra cũng được  
-- Dataset t tiền xử lý rồi đưa vào pipeline rồi, nếu dùng thuật toán mới thì chỉnh trong pipeline là được nhé, còn không thì mọi người tiền xử lý lại cho phù hợp với thuật toán cũng điuợc  
-- Mng làm có gì thì ghi chú vào rõ 1 tí để baoh Hoàng Anh ghi chép với làm report cho dễ  
-- Mng làm trên nhánh main cũng được còn cẩn thận hơn thì làm trên nhánh phụ xog merge vào sau cũng được  
-- Có gì thì nhắn luôn lên trên group nhé
+- Problem: Predicting the weather 3 hours later using the current weather data.
+- Environment:
+  + scikit: scikit-learn, scikit-image, scikit-plot
+  + seaborn
+  + pandas
+  + numpy
+  + matplotlib
+  + jupyter notebook
+- Dataset: Having 8512 records and 12 features
+- To use Random Forest and SVM: run all in RF_and_SVM.ipynb
+- To use Ridge Regression: run all in Ridge regression.ipynb
